@@ -1,0 +1,356 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  height: 82px;
+  background-color: #122900;
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #7ecc6f;
+    font-weight: 700;
+  }
+
+  .navItens {
+    display: flex;
+    list-style: none;
+    gap: 31px;
+
+    li {
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.home {
+  height: 960px;
+  width: 100%;
+  background-image: url("/assets/bannerImg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  .titleHome {
+    padding: 201px 0 0 173px;
+    font-size: 90px;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .descricaoHome {
+    padding-left: 173px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  .descricaoSobre {
+    position: relative;
+    top: -60px;
+    background-color: white;
+    border-radius: 12px 0 12px 0;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3),
+      0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    height: 157px;
+    width: 1252px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #122900;
+    text-align: center;
+  }
+
+  .contentSobreAjuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+
+    .descricaoContentSobreAjuda {
+      display: flex;
+      align-items: center;
+      margin-bottom: 35px;
+    }
+
+    .btnContentSobreAjuda {
+      display: flex;
+      gap: 79px;
+      margin-bottom: 170px;
+
+      .btnSobreAjuda {
+        cursor: pointer;
+        border: none;
+        background-color: #122900;
+        width: 280px;
+        height: 51px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+
+  .contentSobreProjeto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 136px;
+    height: 416px;
+    width: 1310px;
+    border-radius: 30px;
+    border: 1px solid #122900;
+
+    .descricaoSobreProjeto {
+      width: 712px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+      h2 {
+        margin: 0;
+        color: #122900;
+        font-weight: 600;
+        font-size: 35px;
+      }
+
+      p {
+        color: #606060;
+        font-size: 22px;
+        margin: 0;
+      }
+    }
+
+    .descricaoIconeSobreProjeto {
+      display: flex;
+      align-items: center;
+      text-wrap: nowrap;
+      p {
+        font-size: 19px;
+      }
+    }
+  }
+}
+
+.funciona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  h1 {
+    padding: 63px 0 53px 0;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .contentFunciona {
+    display: flex;
+    gap: 84px;
+    padding-bottom: 174px;
+    .cardFunciona {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #122900;
+      text-align: center;
+      border-radius: 50%;
+      width: 276px;
+      height: 269px;
+
+      p {
+        color: white;
+        font-weight: 600;
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  h1 {
+    font-weight: 600;
+    font-size: 35px;
+    padding: 63px 0 53px 0;
+  }
+  p {
+    margin: 0;
+    width: 1155px;
+    font-size: 22px;
+    text-align: center;
+    color: #606060;
+  }
+  span {
+    font-size: 22px;
+    color: #02542d;
+    padding-bottom: 55px;
+  }
+
+  .contentForm {
+    padding-bottom: 83px;
+  }
+  .formulario {
+    width: 1359px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid #02542d;
+    border-radius: 8px;
+    padding: 24px;
+
+    .formInputs {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      input {
+        border: 1px solid #02542d;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+        padding-left: 16px;
+      }
+      textarea {
+        height: 68px;
+        border-radius: 8px;
+        padding-left: 16px;
+        padding-top: 12px;
+      }
+      label {
+        font-size: 16px;
+      }
+    }
+    .btnSubmit {
+      cursor: pointer;
+      background-color: #2c2c2c;
+      width: 100%;
+      height: 40px;
+      border-radius: 8px;
+      font-size: 16px;
+      color: white;
+    }
+  }
+}
+
+.area-usuario {
+  padding: 2rem;
+}
+
+.area-usuario .container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.area-usuario .container h2 {
+  font-size: 2rem;
+  color: #2f4a1f;
+}
+
+.area-usuario .container p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.area-usuario .cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f7f1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card-usuario.card-ajuda {
+  background-color: #fff5f5;
+}
+
+.card-usuario h3 {
+  font-size: 1.25rem;
+  color: #2f4a1f;
+}
+
+.card-usuario p {
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.card-usuario button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #2f4a1f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-usuario button:hover {
+  background-color: #25401a;
+}
+
+.footer {
+  background-color: #2b5b38; /* tom de verde escuro */
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-content img.footer-logo {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-content span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #cce3d0;
+}

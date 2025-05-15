@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <img src="./assets/logoSmall.svg" alt="" />
+        <p>FoodLink</p>
+      </div>
+      <nav class="navbar">
+        <ul class="navItens">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#sobre">SOBRE NÓS</a></li>
+          <li><a href="#funciona">COMO FUNCIONA</a></li>
+          <li><a href="">FALE CONOSCO</a></li>
+          <li><a href="">ÁREA DO USUÁRIO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <h1 class="titleHome">
+        JUNTOS<br />
+        CONTRA <br />
+        A FOME
+      </h1>
+      <p class="descricaoHome">
+        Conectando Solidariedade à <br />
+        Susten
+      </p>
+    </section>
+    <section class="sobre">
+      <div id="sobre" class="descricaoSobre">
+        <p>
+          O FoodLink é uma plataforma social que combate o desperdício de
+          alimentos e a fome, conectando doadores com pessoas e instituições que
+          mais precisam. Inspirado no ODS 2 da ONU (Fome Zero), nosso objetivo é
+          transformar excedentes em esperança.
+        </p>
+      </div>
+      <div class="contentSobreAjuda">
+        <div class="descricaoContentSobreAjuda">
+          <img src="/assets/iconeHandsApple.svg" alt="" />
+          <h3>Você pode fazer parte dessa mudança!</h3>
+        </div>
+        <div class="btnContentSobreAjuda">
+          <button class="btnSobreAjuda">Preciso de ajuda</button>
+          <button class="btnSobreAjuda">Seja um doador</button>
+          <button class="btnSobreAjuda">Saiba mais</button>
+        </div>
+        <div class="contentSobreProjeto">
+          <img src="/assets/logoLarge.svg" alt="" />
+          <div class="descricaoSobreProjeto">
+            <h2>Sobre o projeto</h2>
+            <p>
+              O Foodlink visa reduzir o desperdício de alimentos e aumentar a
+              segurança alimentar. Por meio da tecnologia, promovemos
+              sustentabilidade e responsabilidade social
+            </p>
+            <div class="descricaoIconeSobreProjeto">
+              <div class="descricaoIconeSobreProjeto">
+                <img src="/assets/iconeCertoVerde.svg" alt="" />
+                <p>Redução do desperdício</p>
+              </div>
+              <div class="descricaoIconeSobreProjeto">
+                <img src="/assets/iconeCertoVerde.svg" alt="" />
+                <p>Segurança Alimentar</p>
+              </div>
+              <div class="descricaoIconeSobreProjeto">
+                <img src="/assets/iconeCertoVerde.svg" alt="" />
+                <p>Sustentabilidade</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="funciona" class="funciona">
+      <h1>Como Funciona?</h1>
+      <div class="contentFunciona">
+        <div class="cardFunciona">
+          <img src="/assets/iconUser.svg" alt="" />
+          <p>Doadores se cadastram</p>
+        </div>
+        <div class="cardFunciona">
+          <img src="/assets/iconSom.svg" alt="" />
+          <p>Anunciam alimentos disponíveis</p>
+        </div>
+        <div class="cardFunciona">
+          <img src="/assets/iconCompass.svg" alt="" />
+          <p>Beneficiários localizam via geolocalização</p>
+        </div>
+        <div class="cardFunciona">
+          <img src="/assets/iconPlano.svg" alt="" />
+          <p>Planejamento logístico e coleta</p>
+        </div>
+      </div>
+    </section>
+    <section class="contato">
+      <h1>Fale Conosco</h1>
+      <p>
+        Tem dúvidas, sugestões ou quer fazer parte dessa rede que transforma
+        alimentos em esperança?<br />
+        Nossa equipe está pronta para te ouvir. Preencha o formulário abaixo ou
+        entre em contato pelos nossos canais.
+      </p>
+      <span
+        >Juntos podemos combater a fome e o desperdício de alimentos
+        no Brasil!</span
+      >
+      <div class="contentForm">
+        <form class="formulario" action="">
+          <div class="formInputs">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="formInputs">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="formInputs">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <div>
+            <button class="btnSubmit" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="area-usuario" class="area-usuario">
+      <div class="container">
+        <h2>💚 Área do Usuário</h2>
+        <p>
+          Conecte-se à mudança que transforma vidas!<br />
+          Seja um agente de solidariedade: escolha como deseja participar da
+          nossa rede de combate à fome e ao desperdício de alimentos.
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="card-usuario">
+          <h3>🫶 Quero Doar</h3>
+          <p>
+            📦 Você tem alimentos em boas condições?<br />
+            Contribua com quem precisa. Cadastre seus itens e ajude a reduzir o
+            desperdício enquanto promove o bem.
+          </p>
+          <button>Cadastrar Doação</button>
+        </div>
+        <div class="card-usuario card-ajuda">
+          <h3>🍽️ Preciso de Ajuda</h3>
+          <p>
+            🍞 Está passando por dificuldades?<br />
+            Consulte os alimentos disponíveis e receba doações com dignidade e
+            praticidade.
+          </p>
+          <button>Buscar Alimentos</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+  <div class="footer-content">
+    <img src="/assets/logoMiddle.svg" alt="Logo FoodLink" class="footer-logo" />
+    <p>FoodLink</p>
+    <span>@2025 FoodLink - Projeto FIAP</span>
+  </div>
+</footer>
+  </body>
+</html>
