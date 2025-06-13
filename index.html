@@ -115,11 +115,11 @@
         entre em contato pelos nossos canais.
       </p>
       <span
-        >Juntos podemos combater a fome e o desperdício de alimentos
-        no Brasil!</span
+        >Juntos podemos combater a fome e o desperdício de alimentos no
+        Brasil!</span
       >
       <div class="contentForm">
-        <form class="formulario" action="">
+        <form id="formContato" class="formulario" action="">
           <div class="formInputs">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required />
@@ -130,11 +130,17 @@
           </div>
           <div class="formInputs">
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              maxlength="500"
+              required
+            ></textarea>
           </div>
           <div>
             <button class="btnSubmit" type="submit">Enviar</button>
           </div>
+          <div id="mensagemResultado" style="margin-top: 10px"></div>
         </form>
       </div>
     </section>
@@ -170,11 +176,16 @@
       </div>
     </section>
     <footer class="footer">
-  <div class="footer-content">
-    <img src="/assets/logoMiddle.svg" alt="Logo FoodLink" class="footer-logo" />
-    <p>FoodLink</p>
-    <span>@2025 FoodLink - Projeto FIAP</span>
-  </div>
-</footer>
+      <div class="footer-content">
+        <img
+          src="/assets/logoMiddle.svg"
+          alt="Logo FoodLink"
+          class="footer-logo"
+        />
+        <p>FoodLink</p>
+        <span>@2025 FoodLink - Projeto FIAP</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
